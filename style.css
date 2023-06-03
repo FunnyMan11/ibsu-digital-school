@@ -1,0 +1,87 @@
+  /* Reset */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* Styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.7;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  /* Navbar */
+  .navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* position: fixed;
+    width: 100%; */
+  }
+
+  .navbar a {
+    color: #fff;
+    margin: 0 10px;
+    padding: 10px;
+    transition: color 0.3s, background-color 0.3s;
+   
+  }
+
+  .navbar a:hover {
+    color: #f4f4f4;
+    background-color: #666;
+    border-radius: 5px;
+  }
+
+  /* Hero section */
+  .hero {
+    height: 100vh;
+    background: url('https://source.unsplash.com/random/1080x720?1') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  .hero h1 {
+    font-size: 60px;
+  }
+
+  /* Services section */
+  .services {
+    background: #f4f4f4;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .services .box {
+    padding: 20px;
+    background: #fff;
+    text-align: center;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+
+  .services .box img {
+    width: 100%;
+  }
+
+  /* Footer */
+  .footer {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
